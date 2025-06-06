@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #7B3F00;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+header h1 {
+    font-size: 2em;
+    text-shadow: 1px 1px 3px #00000033;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+.intro {
+    text-align: center;
+    margin: 30px;
+}
+
+.imagem-cafe {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+}
+
+.formulario {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.formulario input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.formulario button {
+    background-color: #7B3F00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.formulario button:hover {
+    background-color: #A0522D;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 600px) {
+    header, .formulario, .intro {
+        padding: 10px;
+        margin: 10px;
+    }
+    .intro h2 {
+        font-size: 1.3em;
+    }
+    header h1 {
+        font-size: 1.2em;
+    }
+    .formulario {
+        max-width: 95%;
+        padding: 10px;
+    }
+    .imagem-cafe {
+        max-width: 98vw;
+    }
+    nav ul li {
+        display: block;
+        margin: 8px 0;
+    }
+}

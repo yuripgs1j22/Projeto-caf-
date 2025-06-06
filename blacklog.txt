@@ -1,0 +1,11 @@
+
+BACKLOG DE CORREÇÕES - WebCafé
+
+1. O título da página "Bem vindo ao WebCafé" não está sendo exibido corretamente.
+2. O link "Contato" está levando para uma página inexistente.
+3. A cor de fundo da página parece não estar funcionando como esperado.
+4. A imagem de café não está sendo exibida corretamente.
+5. O formulário de inscrição exibe o alerta, mas o formulário é enviado ao mesmo tempo.
+6. O rodapé está funcionando bem, mas falta responsividade geral na página.
+7. Há problemas de semântica e fechamento de tags no HTML.
+8. Melhorar contraste de cores no texto do cabeçalho.
